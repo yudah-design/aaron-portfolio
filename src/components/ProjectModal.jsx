@@ -38,11 +38,17 @@ export default function ProjectModal({ project, onClose }) {
             <div className="aspect-video w-full bg-ink border-b border-line overflow-hidden">
               {project.type === "video" ? (
                 <video
-                  src={project.video}
-                  controls
-                  playsInline
-                  className="w-full h-full object-contain bg-ink"
-                />
+                  src={project.video} 
+                  controls 
+                  playsInline 
+                  preload="metadata" 
+                  className="w-full h-full object-contain bg-ink" 
+                  onError={(e) => { 
+                    console.error("Erreur vidéo :", project.video, e.currentTarget.error); 
+                  }} 
+                > 
+                  Votre navigateur ne peut pas lire cette vidéo. 
+                </video>
               ) : (
                 <img
                   src={project.image}
