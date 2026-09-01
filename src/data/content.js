@@ -210,7 +210,7 @@ export const projects = [
     category: "Vidéo",
     duration: "Recap événement",
     type: "video",
-    video: "/videos/montage-01.mp4",
+    video: "https://res.cloudinary.com/ujrutfci/video/upload/v1788275799/montage-01.mp4",
     description: "Recap vidéo de l'événement Chill and Rest.",
     detail:
       "Montage récapitulatif mettant en valeur les différents moments de l'événement et son ambiance, avec une identité visuelle portée par le logo Chill REST.",
@@ -223,7 +223,7 @@ export const projects = [
     category: "Vidéo",
     duration: "Recap événement",
     type: "video",
-    video: "/videos/montage-02.mp4",
+    video: "https://res.cloudinary.com/ujrutfci/video/upload/v1788275805/montage-02.mp4",
     description: "Recap vidéo de la deuxième journée d'Effusion.",
     detail:
       "Montage dynamique retraçant les temps forts de la deuxième journée de l'événement Effusion.",
@@ -236,7 +236,7 @@ export const projects = [
     category: "Vidéo",
     duration: "Aftermovie",
     type: "video",
-    video: "/videos/montage-03.mp4",
+    video: "https://res.cloudinary.com/ujrutfci/video/upload/v1788275795/montage-03.mp4",
     description: "Premier montage vidéo autour de l'expérience VIBEATHON 2026.",
     detail:
       "Montage mettant en scène l'univers du VIBEATHON 2026 et son énergie à travers différentes séquences tournées sur le terrain.",
@@ -249,7 +249,7 @@ export const projects = [
     category: "Vidéo",
     duration: "Aftermovie",
     type: "video",
-    video: "/videos/montage-04.mp4",
+    video: "https://res.cloudinary.com/ujrutfci/video/upload/v1788275791/montage-04.mp4",
     description: "Deuxième montage vidéo autour de l'expérience VIBEATHON 2026.",
     detail:
       "Deuxième réalisation consacrée au VIBEATHON 2026, avec une approche dynamique et immersive.",
@@ -262,7 +262,7 @@ export const projects = [
     category: "Vidéo",
     duration: "Motion design",
     type: "video",
-    video: "/videos/montage-05.mp4",
+    video: "https://res.cloudinary.com/ujrutfci/video/upload/v1788275819/montage-05.mp4",
     description: "Animation graphique réalisée pour Juris Immo Conseils.",
     detail:
       "Motion design basé sur une silhouette, des éléments graphiques et du texte pour communiquer de manière claire et dynamique.",
@@ -275,7 +275,7 @@ export const projects = [
     category: "Vidéo",
     duration: "Face caméra",
     type: "video",
-    video: "/videos/montage-06.mp4",
+    video: "https://res.cloudinary.com/ujrutfci/video/upload/v1788275824/montage-06.mp4",
     description:
       "Vidéo face caméra consacrée à la protection juridique.",
     detail:
